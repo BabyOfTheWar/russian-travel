@@ -1,0 +1,27 @@
+.lead__image {
+    display: flex;
+    object-fit: cover;
+    margin-top: 40px;
+    width: 100%;
+    object-position: center;
+}
+
+@media screen and (min-width: 768px) {
+    .lead__image {
+        margin-top: 56px;
+
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__image {
+        max-width: 928px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__image {
+        max-width: 984px;
+        margin-top: 64px;
+    }
+}

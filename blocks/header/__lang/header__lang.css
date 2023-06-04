@@ -1,0 +1,5 @@
+.header__lang {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+}
